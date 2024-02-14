@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Generators</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1><center>Welcome to our Date Night Chooser!</center></h1>
+
+    <h2><center><i>With this, we can create a fun and random set of events that can decide the direction of our evening!</i></center></h2>
+    
+    <h3>Q1: Where to eat?</h3>
+    
+    <div class="generator-container" id="generator1">
+        <h3 class="output" id="output-food-selection1">Restaurant, Fast Food, or At Home?</h3>
+        <button onclick="generateRandomFoodSelection(1)">Generate Location</button>
+    </div>
+
+    <br>
+
+    <h3>Q2: What to Eat?</h3>
+
+    <div class="generator-container" id="generator2">
+        <h3 class="output" id="output-cuisine2">If restaurant, then cuisine?</h3>
+        <button onclick="generateRandomCuisine(2)">Generate Cuisine</button>
+    </div>
+
+    <h3><i>Or</i></h3>
+
+    <div class="generator-container" id="generator3">
+        <h3 class="output" id="output-fast-food3">Fast food option?</h3>
+        <button onclick="generateRandomFastFood(3)">Generate Fast Food Option</button>
+    </div>
+
+    <h3><i>Or</i></h3>
+
+    <div class="generator-container" id="generator4">
+        <h3 class="output" id="output-at-home4">At home menu?</h3>
+        <button onclick="generateRandomAtHomeMenu(4)">Generate At-Home Option</button>
+    </div>
+    
+    <br>
+
+    <h3>Q3: What to do?</h3>
+
+    <div class="generator-container" id="generator5">
+        <h3 class="output" id="output-todo5">Click the button to figure out what we want to do!</h3>
+        <button onclick="generateRandomToDo(5)">Generate Options</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
